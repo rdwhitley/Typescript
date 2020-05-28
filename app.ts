@@ -22,9 +22,34 @@ export {};
 // let j: Array<string> = ["23"];
 // let k: Array<number> = [23, 44];
 
-//Functions
-let print = (name) => console.log(name);
-let double = number => number * 2;
+//Arrow Functions
+// let print = (name) => console.log(name);
+// let double = number => number * 2;
 
-print("Fiq");
-console.log(double(8));
+// print("Fiq");
+// console.log(double(8));
+
+// let user = {
+//   name: "John",
+//   state: "DE",
+//   age: 32,
+//   city: 'Newark'
+// }
+
+// interface UserData {
+//   name: string;
+//   state: string;
+//   age: number;
+//   city: string;
+// }
+
+// let welcome = (user: UserData) => {
+//   console.log(`Welcome ${user.name} you are from ${user.city}, ${user.state} and you are ${user.age}`);
+// }
+
+// let signedOff = (user: UserData) => {
+//   console.log(`${user.name} who is ${user.age} years old from ${user.city}, ${user.state} just signed out`);
+// }
+
+// welcome(user);
+// signedOff(user);
